@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index" />
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Gemunu+Libre:wght@200&display=swap"
+        rel="stylesheet" />
+
+    <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Laura de Freitas Portfólio</title>
+</head>
+
+<body>
+    <nav id="navigation">
+        <div class="wrapper">
+            <a class="logo close" href="#home"> lauradefreitas </a>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a id="aboutNav" class="close" href="#about">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a id="projectsNav" class="close" href="#projects">Projetos</a>
+                    </li>
+                    <li>
+                        <a id="knowledgeNav" class="close" href="#knowledge">Conhecimentos</a>
+                    </li>
+                    <li>
+                        <a id="contactNav" class="close" href="#contact">Fale comigo</a>
+                    </li>
+                </ul>
+
+                <ul class="social-links">
+                    <li>
+                        <a href="https://github.com/lauradefreitas" title="Github" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/lauradefreitas" title="LinkedIn" target="_blank"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <button aria-expanded="false" aria-label="Abrir menu" class="open-menu open">
+            </button>
+
+            <button aria-expanded="true" aria-label="Fechar menu" class="close-menu close">
+            </button>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="wrapper">
+            <div class="col-a">
+                <header>
+                    <h4>Olá mundo</h4>
+                    <h1>Eu sou Laura,</h1>
+                </header>
+                <div class="content">
+                    <p class="line typing">Desenvolvedora Backend</p>
+                    <a class="button" href="#contact">Fale comigo</a>
+                </div>
+            </div>
+
+            <div class="col-b">
+                <div class="notebook-container">
+                    <img src="assets/images/notebook.png" alt="Imagem de um notebook" class="notebook" />
+                    <img src="assets/images/notebook-2.png" alt="Imagem de um notebook com tela quebrada"
+                        class="notebook broken" />
+                    <img src="assets/images/notebook-2-white.png" alt="Imagem de um notebook com tela quebrada"
+                        class="notebook broken white" />
+                </div>
+                <img src="./assets/images/vidro.png" alt="Estilhaços de vidro com ícones de HTML5, CSS3 e JavaScript"
+                    class="vidro" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="wrapper">
+            <div class="col-a">
+                <header>
+                    <h2>Sobre Mim</h2>
+                </header>
+                <div class="content">
+                    <p>
+                        Me chamo Laura de Freitas, tenho 22 anos e sou Desenvolvedora Backend. Atualmente, moro em
+                        Recife, PE. Tenho experiência em desenvolvimento de sistemas e estou sempre em busca de novos
+                        aprendizados e desafios na área de tecnologia. Minha trajetória inclui trabalho com análise e
+                        manutenção de sistemas, o que me permitiu desenvolver habilidades técnicas e um forte senso de
+                        organização. Estou em busca de novas oportunidades e desafios para continuar crescendo
+                        profissionalmente.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-b">
+                <img src="assets/images/Imagem do WhatsApp de 2024-09-16 à(s) 17.09.11_5624f63f.jpg" alt="Imagem de Laura" />
+            </div>
+        </div>
+    </section>
+    <section id="knowledge">
+        <div class="wrapper">
+            <header>
+                <h2>Conhecimentos</h2>
+            </header>
+            <div class="content">
+                <div class="cards">
+                    <div class="card">
+                        <img src="assets/images/java.png" alt="Ícone do Java" />
+                        <h3>Java</h3>
+                        <p>Java é uma linguagem de programação amplamente usada para desenvolvimento de aplicações robustas e escaláveis.</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/icons8-logotipo-da-primavera-240.png" alt="Ícone do Spring Boot" />
+                        <h3>Spring Boot</h3>
+                        <p>Spring Boot é uma extensão do Spring Framework que facilita a configuração e desenvolvimento de aplicações Java.</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/icons8-azure-144.png" alt="Ícone do Azure" />
+                        <h3>Azure</h3>
+                        <p>Azure é uma plataforma de serviços em nuvem da Microsoft que oferece uma ampla gama de serviços de computação, armazenamento e análise.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section id="contact">
+        <div class="wrapper">
+            <div class="col-a">
+                <header>
+                    <h2>Fale Comigo!</h2>
+                </header>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <a href="mailto:laurafribeirooabreu@gmail.com" title="Enviar e-mail">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                                        stroke="#00856F" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M22 6L12 13L2 6" stroke="#00856F" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                laurafribeirooabreu@gmail.com
+                            </a>
+                        </li>
+                </div>
+            </div>
+
+            <div class="col-b">
+                <img src="./assets/images/celular-2.png" alt="Ícone de celular" />
+            </div>
+        </div>
+    </section>
+    <a id="backToTopButton" title="Voltar ao topo" href="#home">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="20" fill="#00856F" />
+            <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </a>
+
+    <footer>
+        <div class="wrapper">
+            <div class="col-a">
+                <a class="logo" href="#home">Laura de Freitas</a>
+                <p>
+                    ©2024 por Laura de Freitas. <br />
+                    Todos os direitos reservados.
+                </p>
+            </div>
+
+            <div class="col-b">
+                <ul class="social-links">
+                    <li>
+                        <a href="https://github.com/lauradefreitas2" title="Github" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path
+                                    d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10z"
+                                    fill="rgba(255,255,255,1)" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/lauradefreitas/" title="LinkedIn" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path
+                                    d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"
+                                    fill="rgba(255,255,255,1)" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toggle">
+        <input type="checkbox" id="sw-checkbox" />
+        <label for="sw-checkbox" title="Mudar tema">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                    d="M11.38 2.019a7.5 7.5 0 1 0 10.6 10.6C21.662 17.854 17.316 22 12.001 22 6.477 22 2 17.523 2 12c0-5.315 4.146-9.661 9.38-9.981z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                    d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"
+                    fill="rgba(255,255,255,1)" />
+            </svg>
+        </label>
+    </div>
+
+</body>
+
+</html>
